@@ -1,0 +1,62 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+}
+
+body, html{
+   height: 100%;
+   background-image: linear-gradient(50deg, #00b4d8, #023e8a );
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 63vh;
+}
+
+.contador{
+   color: #fff;
+   display: flex;
+   justify-content: center;
+}
+
+.puntos{
+   margin-left: 10px;
+}
+.circulo{
+   color: #fff;
+   background-color: #03045e;
+   padding: 6rem;
+   border-radius: 100%;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.circulo:active{
+   background-color: #023e8a;
+}
+
+.circulo::selection{
+   color: #fff;
+}
+
+.subir{
+   color: gold;
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+.compras p{
+   color: #fff;
+   margin-left: 30px;
+   font-weight: 900;
+   font-size: 20px;
+}
+
+p button{
+   color: #fff;
+   background-color: #03045e;
+}
